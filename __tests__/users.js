@@ -1,6 +1,7 @@
 const supertest = require("supertest")
-const server = require(../server)
-const bd = require("../data/config")
+const server = require("../server")
+
+
 
 describe("user integration test", () => {
     //it is the same as test but in a sentence format for developers
